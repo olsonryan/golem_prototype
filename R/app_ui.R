@@ -5,14 +5,10 @@
 #' @import shiny
 #' @noRd
 app_ui <- function(request) {
-  tagList(
-    # Leave this function for adding external resources
+  fluidPage(
     golem_add_external_resources(),
-    # Your application UI logic
-    fluidPage(
-      h1("golem.prototype")
+    h1("Golem Prototype")
     )
-  )
 }
 
 #' Add external Resources to the Application
@@ -39,3 +35,4 @@ golem_add_external_resources <- function() {
     # for example, you can add shinyalert::useShinyalert()
   )
 }
+
