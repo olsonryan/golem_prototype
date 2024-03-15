@@ -20,11 +20,11 @@
 ##
 golem::fill_desc(
   pkg_name = "golem.prototype", # The Name of the package containing the App
-  pkg_title = "PKG_TITLE", # The Title of the package containing the App
-  pkg_description = "PKG_DESC.", # The Description of the package containing the App
-  author_first_name = "AUTHOR_FIRST", # Your First Name
-  author_last_name = "AUTHOR_LAST", # Your Last Name
-  author_email = "AUTHOR@MAIL.COM", # Your Email
+  pkg_title = "Golem Prototype Package", # The Title of the package containing the App
+  pkg_description = "An early test of a package developed with golem.", # The Description of the package containing the App
+  author_first_name = "Ryan", # Your First Name
+  author_last_name = "Olson", # Your Last Name
+  author_email = "raolson@ualberta.ca", # Your Email
   repo_url = "https://github.com/olsonryan/golem_prototype.git", # The URL of the GitHub Repo (optional),
   pkg_version = "0.0.0.9000" # The Version of the package containing the App
 )
@@ -37,17 +37,17 @@ golem::install_dev_deps()
 
 ## Create Common Files ----
 ## See ?usethis for more information
-usethis::use_mit_license("Golem User") # You can set another license here
-usethis::use_readme_rmd(open = FALSE)
-devtools::build_readme()
+  #usethis::use_mit_license("Golem User") # You can set another license here
+  #usethis::use_readme_rmd(open = FALSE)
+  #devtools::build_readme()
 # Note that `contact` is required since usethis version 2.1.5
 # If your {usethis} version is older, you can remove that param
-usethis::use_code_of_conduct(contact = "Golem User")
-usethis::use_lifecycle_badge("Experimental")
-usethis::use_news_md(open = FALSE)
+  #usethis::use_code_of_conduct(contact = "Golem User")
+  #usethis::use_lifecycle_badge("Experimental")
+  #usethis::use_news_md(open = FALSE)
 
 ## Use git ----
-usethis::use_git()
+  #usethis::use_git()
 
 ## Init Testing Infrastructure ----
 ## Create a template for tests
