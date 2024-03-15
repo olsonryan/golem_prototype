@@ -1,8 +1,8 @@
 Package: golem.prototype
-Title: PKG_TITLE
+Title: Golem Prototype Package
 Version: 0.0.0.9000
-Authors@R: person('AUTHOR_FIRST', 'AUTHOR_LAST', email = 'AUTHOR@MAIL.COM', role = c('cre', 'aut'))
-Description: PKG_DESC.
+Authors@R: person('Ryan', 'Olson', email = 'raolson@ualberta.ca', role = c('cre', 'aut'))
+Description: An early test of a package developed with golem.
 License: What license is it under?
 Imports: 
     config (>= 0.3.2),
