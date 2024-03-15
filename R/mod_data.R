@@ -1,4 +1,4 @@
-#' name_of_module2 UI Function
+#' data UI Function
 #'
 #' @description A shiny Module.
 #'
@@ -7,17 +7,17 @@
 #' @noRd 
 #'
 #' @importFrom shiny NS tagList 
-mod_name_of_module2_ui <- function(id){
+mod_data_ui <- function(id){
   ns <- NS(id)
   tagList(
  
   )
 }
     
-#' name_of_module2 Server Functions
+#' data Server Functions
 #'
 #' @noRd 
-mod_name_of_module2_server <- function(id){
+mod_data_server <- function(id){
   moduleServer( id, function(input, output, session){
     ns <- session$ns
  
@@ -25,7 +25,7 @@ mod_name_of_module2_server <- function(id){
 }
     
 ## To be copied in the UI
-# mod_name_of_module2_ui("name_of_module2_1")
+# mod_data_ui("data_1")
     
 ## To be copied in the server
-# mod_name_of_module2_server("name_of_module2_1")
+# mod_data_server("data_1")
