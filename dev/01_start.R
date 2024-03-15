@@ -24,7 +24,7 @@ golem::fill_desc(
   pkg_description = "An early test of a package developed with golem.", # The Description of the package containing the App
   author_first_name = "Ryan", # Your First Name
   author_last_name = "Olson", # Your Last Name
-  author_email = "raolson@ualberta.ca", # Your Email
+  author_email = "olsonryan12@gmail.com", # Your Email
   repo_url = "https://github.com/olsonryan/golem_prototype.git", # The URL of the GitHub Repo (optional),
   pkg_version = "0.0.0.9000" # The Version of the package containing the App
 )
@@ -34,6 +34,9 @@ golem::set_golem_options()
 
 ## Install the required dev dependencies ----
 golem::install_dev_deps()
+usethis::use_package("dplyr")
+usethis::use_pipe()
+usethis::use_package("ggplot2")
 
 ## Create Common Files ----
 ## See ?usethis for more information

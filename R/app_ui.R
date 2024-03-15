@@ -7,7 +7,12 @@
 app_ui <- function(request) {
   fluidPage(
     golem_add_external_resources(),
-    h1("Golem Prototype")
+    titlePanel("Golem Prototype"),
+    shiny::tabsetPanel(
+      type = "tabs",
+      shiny::tabPanel("Data"),
+
+    )
     )
 }
 
