@@ -2,15 +2,16 @@
 #'
 #' @param request Internal parameter for `{shiny}`.
 #'     DO NOT REMOVE.
-#' @import shiny
+#' @import shiny shinipsum
 #' @noRd
 app_ui <- function(request) {
   fluidPage(
     golem_add_external_resources(),
     titlePanel("Golem Prototype"),
+    mod_data_ui("data_1"),
     shiny::tabsetPanel(
       type = "tabs",
-      shiny::tabPanel("Data"),
+      shiny::tabPanel("Data")
 
     )
     )
